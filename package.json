@@ -1,0 +1,24 @@
+{
+  "name": "nodetocss-loader",
+  "version": "1.0.2",
+  "description": "injected node variable in sass/less  as a sass/less  global variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "less",
+    "sass",
+    "jsontosass",
+    "jsontosass-loader",
+    "nodetocss"
+  ],
+  "bugs": {
+    "url": "https://github.com/sass/node-sass/issues"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  }
+}
