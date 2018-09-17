@@ -1,6 +1,6 @@
-## nodetocss-loader
+## [nodetocss-loader](https://github.com/asyalas/nodetocss-loader)
 
-Loads a js file and injected variable in sass/less/styuls
+Loads a js file and injected variable in sass/less/stylus
 
 ### Install
 

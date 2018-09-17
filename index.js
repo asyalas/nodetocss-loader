@@ -4,9 +4,9 @@ var loaderUtils = require("loader-utils");
 var fs = require('fs');
 var path = require("path");
 module.exports = function(content) {
-  var query = loaderUtils.parseQuery(this.query).path;
-  var lang = loaderUtils.parseQuery(this.query).lang || 'sass';
-  var rewrite = loaderUtils.parseQuery(this.query).rewrite 
+  var query = loaderUtils.getOptions(this).path;
+  var lang = loaderUtils.getOptions(this).lang || 'sass';
+  var rewrite = loaderUtils.getOptions(this).rewrite 
   var queryString = JSON.stringify(query);
   var varPath = queryString.replace(/["']/g, '');
   this.cacheable();
