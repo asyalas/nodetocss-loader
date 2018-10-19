@@ -6,6 +6,14 @@ Loads a js file and injected variable in sass/less/stylus
 
 npm install nodetocss-loader --save-dev
 
+### Features
+
+| varivables | less  | sass  | stylus  |
+|------------|:------|:------|:--------|
+|   string   |   √   |   √   |    √    |
+|    List    |   √   |   √   |    x    |
+|    Map     |   √   |   √   |    x    |
+
 ### Basic Usage
 
 ```js
