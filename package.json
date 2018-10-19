@@ -1,6 +1,6 @@
 {
   "name": "nodetocss-loader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "injected node variable in sass/less  as a sass/less  global variable",
   "main": "index.js",
   "scripts": {

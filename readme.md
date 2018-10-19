@@ -21,7 +21,13 @@ npm install nodetocss-loader --save-dev
 'use strict';
 const [,,lang] = process.argv
 module.exports = {
-  'lang-env':lang || 'all',
+  'bk':'red',
+  "h":{
+    "h1": "20px",
+    "h2": "30px",
+    "h3": "40px",
+  },
+  "list":['green','blue']
   ...
 };
 // webpack.config.js
@@ -68,7 +74,7 @@ if will have ohters css precompiler,you can rewrite the function ,just do :
       switch(lang){
         case 'sass' : return '$'+ key + ":" + value + ";\n";;break;
         case 'less' : return '@'+ key + ":" + value + ";\n";;break;
-        case 'stylus' : return  key + "=" + value.replace(/["']/g, '') + ";\n";;break;
+        case 'stylus' : return  key + "=" + value + ";\n";;break;
         default: break;
       }
     }
